@@ -1,0 +1,31 @@
+title
+{
+	font-size:250px;
+}
+
+/* Hyperlinks */
+a
+{
+	font-family: "Lucida Console", monospace;
+	font-size: 48px;
+}
+a:link 
+{
+	color: #0bfb87;
+	text-decoration:none;
+}
+a:visited
+{
+	color: #265c42;
+	text-decoration:none;
+}
+a:hover
+{
+	color: #aff6d4;
+	text-decoration:underline;
+}
+a:active
+{
+	color: #062d1c;
+	text-decoration:none;
+}

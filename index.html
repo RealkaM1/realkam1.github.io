@@ -1,16 +1,40 @@
 <!DOCTYPE html>
 <html>
-<head>
-<link rel="stylesheet" href="css/styles.css">
-<!-- <title>Portfolio of Mika Halonen</title> -->
-<title>Mika Halonen - KAMK Game Developer Student - Portfolio</title>
-</head>
-<body>
-
-<h1>Mika Halonen</h1>
-<h2>Game Developer<br>Student at Kajaani University of Applied Sciences</h2>
-<br><a href="https://www.linkedin.com/in/halonen-mika/">LinkedIn</a>
-<br><a href="https://realkam1.itch.io/">itch.io</a>
-<br><a href="https://github.com/RealkaM1">GitHub</a>
-</body>
+	<head>
+		<!-- <title>Portfolio of Mika Halonen</title> -->
+		<title>Mika Halonen - KAMK Game Developer Student - Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="css/styles.css" />
+		<noscript><link rel="stylesheet" href="css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+		<div id="wrapper">
+			<div id="bg"></div>
+			<div id="overlay"></div>
+			<div id="main">
+				<header id="header" class="alt">
+					<h1>Mika Halonen</h1>
+					<p>Game Developer &nbsp;&bull;&nbsp; Student at Kajaani University of Applied Sciences</p>
+					<nav>
+						<ul>
+							<li><a href="https://www.linkedin.com/in/halonen-mika/">LinkedIn</a></li>
+							<li>&nbsp;&bull;&nbsp;</li>
+							<li><a href="https://realkam1.itch.io/">itch.io</a></li>
+							<li>&nbsp;&bull;&nbsp;</li>
+							<li><a href="https://github.com/RealkaM1">GitHub</a></li>
+						</ul>
+					</nav>
+				</header>
+				<footer id="footer">
+					<span>Portfolio of Mika Halonen. Main Page design template: <a href="http://html5up.net/aerial" class="template">Aerial</a> from HTML5 UP!
+				</footer>
+			</div>
+		</div>
+		<script>
+			window.onload = function() { document.body.classList.remove('is-preload'); }
+			window.ontouchmove = function() { return false; }
+			window.onorientationchange = function() { document.body.scrollTop = 0; }
+		</script>
+	</body>
 </html>

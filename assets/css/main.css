@@ -80,6 +80,23 @@ input, select, textarea {
 		box-sizing: border-box;
 		align-items: stretch;
 	}
+	
+	/* Limiting sizes of images in portrait layout */
+	.row img {
+		display: block;
+		max-height: 400px;
+		width: auto;
+		max-width: 100%;
+		height: 100%;
+		object-fit: contain;
+	}
+
+	/* If images are wrapped inside links or extra divs */
+	.row > div > a, 
+	.row > div {
+		max-height: 400px;
+		overflow: hidden;
+	}
 
 		.row > * {
 			box-sizing: border-box;
@@ -1558,6 +1575,7 @@ input, select, textarea {
 
 		.image.fit {
 			display: block;
+			height: 100%;
 			width: 100%;
 		}
 
@@ -2414,3 +2432,23 @@ input, select, textarea {
 			{
 				color:rgba(100, 100, 100, 1);
 			}
+			
+			
+			
+.yt-video
+{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	min-height: 300px;
+	min-width: 400px;
+	height: 100%;
+	width: 100%;
+}
+
+
+/* Remove dotted underline from code snippet image links */
+.code-snippets a
+{
+	text-decoration:none;
+}
